@@ -1,0 +1,37 @@
+.home{
+    height: 100vh;
+}
+
+.upperPanel{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(52, 142, 88);
+    justify-content: space-between;
+    height: 5vh;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.upperPanelLeft{
+    overflow-y: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+}
+.upperPanelRight{
+    box-sizing: border-box;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.middlePanel{
+    height:80vh ;
+    width: 95vw;
+    background-image: url(https://i.pinimg.com/736x/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 50px;
+
+}
